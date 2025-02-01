@@ -132,3 +132,5 @@ dmypy.json
 
 # redis dump
 dump.rdb
+base/builds/
+
