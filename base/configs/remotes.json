@@ -1,0 +1,923 @@
+[
+  {
+    "name": "AndrewShpagin",
+    "url": "https://github.com/AndrewShpagin/ardupilot.git",
+    "vehicles": [
+      {
+        "name": "Copter",
+        "releases": [
+          {
+            "release_type": "beta",
+            "version_number": "current_branch",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/latest",
+            "commit_reference": "c5500d6a2412577744eeba739904ffb4eeac8a10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "tridge",
+    "url": "https://github.com/tridge/ardupilot.git",
+    "vehicles": [
+      {
+        "name": "Copter",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "BotBloxSwitch",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/latest",
+            "commit_reference": "ddba21f85c752c26d0a365200e4c86fc90dc1e47"
+          }
+        ]
+      },
+      {
+        "name": "Plane",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "BotBloxSwitch",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/latest",
+            "commit_reference": "ddba21f85c752c26d0a365200e4c86fc90dc1e47"
+          }
+        ]
+      },
+      {
+        "name": "Rover",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "BotBloxSwitch",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/latest",
+            "commit_reference": "ddba21f85c752c26d0a365200e4c86fc90dc1e47"
+          }
+        ]
+      },
+      {
+        "name": "Sub",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "BotBloxSwitch",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Sub/latest",
+            "commit_reference": "ddba21f85c752c26d0a365200e4c86fc90dc1e47"
+          }
+        ]
+      },
+      {
+        "name": "AntennaTracker",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "BotBloxSwitch",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/latest",
+            "commit_reference": "ddba21f85c752c26d0a365200e4c86fc90dc1e47"
+          }
+        ]
+      },
+      {
+        "name": "Blimp",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "BotBloxSwitch",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Blimp/latest",
+            "commit_reference": "ddba21f85c752c26d0a365200e4c86fc90dc1e47"
+          }
+        ]
+      },
+      {
+        "name": "Heli",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "BotBloxSwitch",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Heli/latest",
+            "commit_reference": "ddba21f85c752c26d0a365200e4c86fc90dc1e47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "peterbarker",
+    "url": "https://github.com/peterbarker/ardupilot.git",
+    "vehicles": [
+      {
+        "name": "Copter",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "AP_COPTER_ADVANCED_FAILSAFE_ENABLED",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/latest",
+            "commit_reference": "f607614516650e61d2eb1374fcd447cd38889315"
+          },
+          {
+            "release_type": "tag",
+            "version_number": "compass-diag-fix",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/latest",
+            "commit_reference": "858382752b8cc4b384e65e399952801db1d16929"
+          }
+        ]
+      },
+      {
+        "name": "Plane",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "AP_COPTER_ADVANCED_FAILSAFE_ENABLED",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/latest",
+            "commit_reference": "f607614516650e61d2eb1374fcd447cd38889315"
+          },
+          {
+            "release_type": "tag",
+            "version_number": "compass-diag-fix",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/latest",
+            "commit_reference": "858382752b8cc4b384e65e399952801db1d16929"
+          }
+        ]
+      },
+      {
+        "name": "Rover",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "AP_COPTER_ADVANCED_FAILSAFE_ENABLED",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/latest",
+            "commit_reference": "f607614516650e61d2eb1374fcd447cd38889315"
+          },
+          {
+            "release_type": "tag",
+            "version_number": "compass-diag-fix",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/latest",
+            "commit_reference": "858382752b8cc4b384e65e399952801db1d16929"
+          }
+        ]
+      },
+      {
+        "name": "Sub",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "AP_COPTER_ADVANCED_FAILSAFE_ENABLED",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Sub/latest",
+            "commit_reference": "f607614516650e61d2eb1374fcd447cd38889315"
+          },
+          {
+            "release_type": "tag",
+            "version_number": "compass-diag-fix",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Sub/latest",
+            "commit_reference": "858382752b8cc4b384e65e399952801db1d16929"
+          }
+        ]
+      },
+      {
+        "name": "AntennaTracker",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "AP_COPTER_ADVANCED_FAILSAFE_ENABLED",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/latest",
+            "commit_reference": "f607614516650e61d2eb1374fcd447cd38889315"
+          },
+          {
+            "release_type": "tag",
+            "version_number": "compass-diag-fix",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/latest",
+            "commit_reference": "858382752b8cc4b384e65e399952801db1d16929"
+          }
+        ]
+      },
+      {
+        "name": "Blimp",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "AP_COPTER_ADVANCED_FAILSAFE_ENABLED",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Blimp/latest",
+            "commit_reference": "f607614516650e61d2eb1374fcd447cd38889315"
+          },
+          {
+            "release_type": "tag",
+            "version_number": "compass-diag-fix",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Blimp/latest",
+            "commit_reference": "858382752b8cc4b384e65e399952801db1d16929"
+          }
+        ]
+      },
+      {
+        "name": "Heli",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "AP_COPTER_ADVANCED_FAILSAFE_ENABLED",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Heli/latest",
+            "commit_reference": "f607614516650e61d2eb1374fcd447cd38889315"
+          },
+          {
+            "release_type": "tag",
+            "version_number": "compass-diag-fix",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Heli/latest",
+            "commit_reference": "858382752b8cc4b384e65e399952801db1d16929"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rmackay9",
+    "url": "https://github.com/rmackay9/ardupilot.git",
+    "vehicles": [
+      {
+        "name": "Copter",
+        "releases": []
+      },
+      {
+        "name": "Plane",
+        "releases": []
+      },
+      {
+        "name": "Rover",
+        "releases": []
+      },
+      {
+        "name": "Sub",
+        "releases": []
+      },
+      {
+        "name": "AntennaTracker",
+        "releases": []
+      },
+      {
+        "name": "Blimp",
+        "releases": []
+      },
+      {
+        "name": "Heli",
+        "releases": []
+      }
+    ]
+  },
+  {
+    "name": "shiv-tyagi",
+    "url": "https://github.com/shiv-tyagi/ardupilot.git",
+    "vehicles": [
+      {
+        "name": "Copter",
+        "releases": []
+      },
+      {
+        "name": "Plane",
+        "releases": []
+      },
+      {
+        "name": "Rover",
+        "releases": []
+      },
+      {
+        "name": "Sub",
+        "releases": []
+      },
+      {
+        "name": "AntennaTracker",
+        "releases": []
+      },
+      {
+        "name": "Blimp",
+        "releases": []
+      },
+      {
+        "name": "Heli",
+        "releases": []
+      }
+    ]
+  },
+  {
+    "name": "andyp1per",
+    "url": "https://github.com/andyp1per/ardupilot.git",
+    "vehicles": [
+      {
+        "name": "Copter",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "pavo20pro-4.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/latest",
+            "commit_reference": "a11eedc3cc7e9cec7ba7433083bcf4cf8ddc6ff5"
+          },
+          {
+            "release_type": "tag",
+            "version_number": "small-copter-4.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/latest",
+            "commit_reference": "2b870524d862045eeeb91e2b9f78a70676da6013"
+          }
+        ]
+      },
+      {
+        "name": "Plane",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "pavo20pro-4.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/latest",
+            "commit_reference": "a11eedc3cc7e9cec7ba7433083bcf4cf8ddc6ff5"
+          },
+          {
+            "release_type": "tag",
+            "version_number": "small-copter-4.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/latest",
+            "commit_reference": "2b870524d862045eeeb91e2b9f78a70676da6013"
+          }
+        ]
+      },
+      {
+        "name": "Rover",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "pavo20pro-4.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/latest",
+            "commit_reference": "a11eedc3cc7e9cec7ba7433083bcf4cf8ddc6ff5"
+          },
+          {
+            "release_type": "tag",
+            "version_number": "small-copter-4.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/latest",
+            "commit_reference": "2b870524d862045eeeb91e2b9f78a70676da6013"
+          }
+        ]
+      },
+      {
+        "name": "Sub",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "pavo20pro-4.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Sub/latest",
+            "commit_reference": "a11eedc3cc7e9cec7ba7433083bcf4cf8ddc6ff5"
+          },
+          {
+            "release_type": "tag",
+            "version_number": "small-copter-4.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Sub/latest",
+            "commit_reference": "2b870524d862045eeeb91e2b9f78a70676da6013"
+          }
+        ]
+      },
+      {
+        "name": "AntennaTracker",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "pavo20pro-4.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/latest",
+            "commit_reference": "a11eedc3cc7e9cec7ba7433083bcf4cf8ddc6ff5"
+          },
+          {
+            "release_type": "tag",
+            "version_number": "small-copter-4.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/latest",
+            "commit_reference": "2b870524d862045eeeb91e2b9f78a70676da6013"
+          }
+        ]
+      },
+      {
+        "name": "Blimp",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "pavo20pro-4.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Blimp/latest",
+            "commit_reference": "a11eedc3cc7e9cec7ba7433083bcf4cf8ddc6ff5"
+          },
+          {
+            "release_type": "tag",
+            "version_number": "small-copter-4.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Blimp/latest",
+            "commit_reference": "2b870524d862045eeeb91e2b9f78a70676da6013"
+          }
+        ]
+      },
+      {
+        "name": "Heli",
+        "releases": [
+          {
+            "release_type": "tag",
+            "version_number": "pavo20pro-4.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Heli/latest",
+            "commit_reference": "a11eedc3cc7e9cec7ba7433083bcf4cf8ddc6ff5"
+          },
+          {
+            "release_type": "tag",
+            "version_number": "small-copter-4.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Heli/latest",
+            "commit_reference": "2b870524d862045eeeb91e2b9f78a70676da6013"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "ardupilot",
+    "url": "https://github.com/ardupilot/ardupilot.git",
+    "vehicles": [
+      {
+        "name": "Copter",
+        "releases": [
+          {
+            "release_type": "beta",
+            "version_number": "4.6.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/beta",
+            "commit_reference": "110acc96d35b1124aa6ede79f64189638ea80706"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.8",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.3.8",
+            "commit_reference": "60ebf6fbb91543912da34bb2513421477f428752"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.7",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.5.7",
+            "commit_reference": "2a3dc4b7bf2507120f7378a7b2fde73185e0c325"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.3.0",
+            "commit_reference": "93448b71380c417644c9082b7b23e80fb982b626"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.1",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.3.1",
+            "commit_reference": "22f45675693991bf0021d5e55697dc611770c27a"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.2",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.3.2",
+            "commit_reference": "fcef79e79ede303b19960dae9450cf9bccc02249"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.3",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.3.3",
+            "commit_reference": "34e8e02c48d2982d722b982e1bfac5581d4401ae"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.4",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.3.4",
+            "commit_reference": "43447be86613734c522a580e63dfc869faba2ceb"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.5",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.3.5",
+            "commit_reference": "02ff7ea394a07393c8bb67789f4e098f0369323b"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.3.6",
+            "commit_reference": "0c5e999c44785b0b8f53e7758856ceea614ef01b"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.7",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.3.7",
+            "commit_reference": "c8506ed4782f3867dc544c8dae845a976cf9b853"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.4.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.4.0",
+            "commit_reference": "502702df62572519b56971fe9fed5b2883640879"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.4.1",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.4.1",
+            "commit_reference": "e010f97906087a3a1975e1c4fcc1f88a249599ce"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.4.2",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.4.2",
+            "commit_reference": "656c12a5654edc48a4ea85a24ee2fa98891e95be"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.4.3",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.4.3",
+            "commit_reference": "b44b804bcf3f93f35b6facbe7f31efdaf2f9b44b"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.4.4",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.4.4",
+            "commit_reference": "db53a28f321dc8233ee49d3cc6b395b5835c768b"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.5.0",
+            "commit_reference": "53ad2c2a2c7e7ae220cd140013510459c4c2e6a4"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.1",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.5.1",
+            "commit_reference": "71a2f169b7c5a99c15ccc4f8985b3e4d641913a1"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.2",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.5.2",
+            "commit_reference": "291be84828041815142e31374de15ba5bcf1bba0"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.3",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.5.3",
+            "commit_reference": "ee14ff3822161368ec403700bf96d02b84def06c"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.4",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.5.4",
+            "commit_reference": "fd1bcc6182bf7527643ca1a4648c3b68ca016ce4"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.5",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.5.5",
+            "commit_reference": "142aece2da56146d94dcad0f6b539af6960538f6"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable-4.5.6",
+            "commit_reference": "7ce11b4194f6c6b77d8e1f2bd5f14c0466d5e696"
+          },
+          {
+            "release_type": "latest",
+            "version_number": "NA",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/latest",
+            "commit_reference": "refs/heads/master"
+          }
+        ]
+      },
+      {
+        "name": "Plane",
+        "releases": [
+          {
+            "release_type": "beta",
+            "version_number": "4.6.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/beta",
+            "commit_reference": "110acc96d35b1124aa6ede79f64189638ea80706"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.8",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.3.8",
+            "commit_reference": "68249e1d07dfb6a9c5b4d5d1e3bdbed1a88ea1a9"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.7",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.5.7",
+            "commit_reference": "0358a9c210bc6c965006f5d6029239b7033616df"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.3.0",
+            "commit_reference": "4f0932b7ae9b344c4d806a2893a609710f1ef4f0"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.1",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.3.1",
+            "commit_reference": "7d0c6e4dcf1de990641e954400ce08a9db199d6f"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.2",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.3.2",
+            "commit_reference": "cafc7b9119f307be9cc990468a1c58e418e112ba"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.3",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.3.3",
+            "commit_reference": "d808133aedc39a650a2492cd01da07a4b76b3df7"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.4",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.3.4",
+            "commit_reference": "f73e812f6d8313b97c7e8dd71166c8904ed6cfcf"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.5",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.3.5",
+            "commit_reference": "3bf6d7ace8e96017a191f7dbe25d090de1aceef0"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.3.7",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.3.7",
+            "commit_reference": "2d1a8a28bd00a4e83a9f0e98cd94780273089440"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.4.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.4.0",
+            "commit_reference": "710b94a8851d723a3293cc459b2bfa7d74e1759d"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.4.1",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.4.1",
+            "commit_reference": "4ccbfb1fada4e67efe3f6a994d5be6e0c1b91912"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.4.2",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.4.2",
+            "commit_reference": "def89ea600e9165ac9d7286758c741d03aac4020"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.4.3",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.4.3",
+            "commit_reference": "8305ba60090b333468c5d9463ae9c54f91dece15"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.4.4",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.4.4",
+            "commit_reference": "16b783822905668b160b0eb1ef5599ce0d3a0231"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.5.0",
+            "commit_reference": "233f344a37e177343f372bec31cb2cc5890a26ee"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.1",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.5.1",
+            "commit_reference": "91d4ca6315693fd5fb9fd985ed985c22e888fbad"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.2",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.5.2",
+            "commit_reference": "4327a381d033819b6483e7476bb332d6821ebd30"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.3",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.5.3",
+            "commit_reference": "6cedbcb0e5fc14a99742a50a37117ac537be4fe8"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.4",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.5.4",
+            "commit_reference": "e8f937aad532b19e5dfed1d55fa7c85b238bca9a"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.5",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.5.5",
+            "commit_reference": "d6ebfc21844e2bc0ab28c8c688b8dae94abccf5a"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/stable-4.5.6",
+            "commit_reference": "bbf0b066e4baa04b5a746f22de642a25905cd52d"
+          },
+          {
+            "release_type": "latest",
+            "version_number": "NA",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Plane/latest",
+            "commit_reference": "refs/heads/master"
+          }
+        ]
+      },
+      {
+        "name": "Rover",
+        "releases": [
+          {
+            "release_type": "beta",
+            "version_number": "4.6.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/beta",
+            "commit_reference": "110acc96d35b1124aa6ede79f64189638ea80706"
+          },
+          {
+            "release_type": "beta",
+            "version_number": "4.3.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/beta-4.3",
+            "commit_reference": "9a80387af7bc0ab64aa5ba716d502836b02067a5"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.7",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/stable-4.5.7",
+            "commit_reference": "52bed8d542003c4767fea21b0f5a78fe864a377f"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.4.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/stable-4.4.0",
+            "commit_reference": "9279df6191a772c098b2e4797c95ac954f258d88"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/stable-4.5.0",
+            "commit_reference": "53ad2c2a2c7e7ae220cd140013510459c4c2e6a4"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.1",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/stable-4.5.1",
+            "commit_reference": "71a2f169b7c5a99c15ccc4f8985b3e4d641913a1"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.2",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/stable-4.5.2",
+            "commit_reference": "291be84828041815142e31374de15ba5bcf1bba0"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.3",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/stable-4.5.3",
+            "commit_reference": "548b0b2c3260cd0cff42e2093537066431a3620b"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.4",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/stable-4.5.4",
+            "commit_reference": "fe4831dd2ecdf9c68769c629566bf9833ec55f54"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.5",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/stable-4.5.5",
+            "commit_reference": "9064e22695992593b12e71a2b2ad25faba2f7277"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/stable-4.5.6",
+            "commit_reference": "c61efecb0460e3e56c8f298517b0a3f7903e9a7e"
+          },
+          {
+            "release_type": "latest",
+            "version_number": "NA",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Rover/latest",
+            "commit_reference": "refs/heads/master"
+          }
+        ]
+      },
+      {
+        "name": "Sub",
+        "releases": [
+          {
+            "release_type": "stable",
+            "version_number": "4.5.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Sub/beta",
+            "commit_reference": "03c12698df56c600f5b3d39f8b17d414ea6d2a48"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.1",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Sub/stable",
+            "commit_reference": "ed138794685eaf43b8fadb1a01ec429b85d0b398"
+          },
+          {
+            "release_type": "latest",
+            "version_number": "NA",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Sub/latest",
+            "commit_reference": "refs/heads/master"
+          }
+        ]
+      },
+      {
+        "name": "AntennaTracker",
+        "releases": [
+          {
+            "release_type": "beta",
+            "version_number": "4.6.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/beta",
+            "commit_reference": "110acc96d35b1124aa6ede79f64189638ea80706"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.7",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/stable-4.5.7",
+            "commit_reference": "a6c06e8b1d605afacb25c82fa5069b8990a372c8"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/stable-4.5.0",
+            "commit_reference": "7bd5243607bc36d6e843e5285c879a7990fd48c1"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.1",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/stable-4.5.1",
+            "commit_reference": "58e2fb1ea75e18b6ab6f29701358101a7c89ae1c"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.2",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/stable-4.5.2",
+            "commit_reference": "d7321ab6d43d4b36a54a683a336c59829dad0fba"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.3",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/stable-4.5.3",
+            "commit_reference": "bec947e32530d5b3b3ce9a4c1c59dfacea61ca1d"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.4",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/stable-4.5.4",
+            "commit_reference": "f677461ad2f970e0c66a229c9008334bafedd2d8"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.5",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/stable-4.5.5",
+            "commit_reference": "096c637e0b3371484b34a6eedbf909c3b4e7b4b7"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.6",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/stable-4.5.6",
+            "commit_reference": "eade8be796f7601dd8f128c2a75585ec80bad3be"
+          },
+          {
+            "release_type": "latest",
+            "version_number": "NA",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/AntennaTracker/latest",
+            "commit_reference": "refs/heads/master"
+          }
+        ]
+      },
+      {
+        "name": "Blimp",
+        "releases": [
+          {
+            "release_type": "latest",
+            "version_number": "NA",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Blimp/latest",
+            "commit_reference": "refs/heads/master"
+          }
+        ]
+      },
+      {
+        "name": "Heli",
+        "releases": [
+          {
+            "release_type": "stable",
+            "version_number": "4.3.8",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/beta-4.3",
+            "commit_reference": "60ebf6fbb91543912da34bb2513421477f428752"
+          },
+          {
+            "release_type": "beta",
+            "version_number": "4.6.0",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/beta",
+            "commit_reference": "110acc96d35b1124aa6ede79f64189638ea80706"
+          },
+          {
+            "release_type": "stable",
+            "version_number": "4.5.7",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/stable",
+            "commit_reference": "2a3dc4b7bf2507120f7378a7b2fde73185e0c325"
+          },
+          {
+            "release_type": "latest",
+            "version_number": "NA",
+            "ap_build_artifacts_url": "https://firmware.ardupilot.org/Copter/latest",
+            "commit_reference": "refs/heads/master"
+          }
+        ]
+      }
+    ]
+  }
+]
